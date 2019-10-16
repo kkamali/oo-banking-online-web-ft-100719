@@ -1,5 +1,5 @@
 class BankAccount
   attr_reader :name 
-  attr_accessor :balance, :statsu
+  attr_accessor :balance, :status
 
 end
