@@ -1,3 +1,5 @@
+require 'pry'
+
 class Transfer
   attr_reader :sender, :receiver, :amount
   attr_accessor :status 
@@ -19,5 +21,6 @@ class Transfer
       @sender.balance -= @amount 
       @receiver.balance += @amount 
     end 
+    binding.pry
   end
 end
