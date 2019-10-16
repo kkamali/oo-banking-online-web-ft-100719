@@ -15,6 +15,7 @@ class Transfer
   
   def execute_transaction 
     if valid? 
+      puts "Yo"
     end 
   end
 end
